@@ -2,13 +2,37 @@
   "name": "Daily Tracker",
   "short_name": "Tracker",
   "description": "Daily health, food, and mindfulness tracker",
-  "start_url": "./index.html",
+  "start_url": "/daily-bread/index.html",
+  "scope": "/daily-bread/",
   "display": "standalone",
   "background_color": "#0D0D0F",
   "theme_color": "#0D0D0F",
   "orientation": "portrait",
+  "lang": "en",
   "icons": [
-    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+    {
+      "src": "/daily-bread/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/daily-bread/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/daily-bread/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/daily-bread/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ]
 }
